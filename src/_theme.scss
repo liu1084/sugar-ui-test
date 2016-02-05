@@ -1,0 +1,22 @@
+/*******************************
+        Import Directives
+*******************************/
+
+/*------------------
+       Theme
+-------------------*/
+$theme      : 'default' !default;
+
+/* default */
+$default: "#{$themesFolder}/default/golbals/site.variables";
+
+/* my theme */
+$myTheme: "#{$themesFolder}/#{$theme}/globals/site.variables";
+
+/*-------------------
+ Component Variables
+---------------------*/
+$defaultComponent: "#{$themesFolder}/default/#{$type}/#{$element}.variables";
+
+/* customer component*/
+$myComponent: "#{$themesFolder}/default/#{$type}/#{$element}.variables";

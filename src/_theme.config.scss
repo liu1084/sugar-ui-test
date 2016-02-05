@@ -1,0 +1,81 @@
+/*******************************
+        Theme Selection
+*******************************/
+
+/* To override a theme for an individual element
+   specify theme name below
+*/
+
+/* Global */
+$site       : 'default' !default;
+$reset      : 'normalize' !default;
+
+/* Elements */
+$button     : 'default' !default;
+$container  : 'default' !default;
+$divider    : 'default' !default;
+$flag       : 'default' !default;
+$header     : 'default';
+$icon       : 'default' !default;
+$image      : 'default' !default;
+$input      : 'default' !default;
+$label      : 'default' !default;
+$list       : 'default' !default;
+$loader     : 'default' !default;
+$rail       : 'default' !default;
+$reveal     : 'default' !default;
+$segment    : 'default' !default;
+$step       : 'default' !default;
+
+/* Collections */
+$breadcrumb : 'default' !default;
+$form       : 'default' !default;
+$grid       : 'default' !default;
+$menu       : 'default' !default;
+$message    : 'default' !default;
+$table      : 'default' !default;
+
+/* Modules */
+$accordion  : 'default' !default;
+$checkbox   : 'default' !default;
+$dimmer     : 'default' !default;
+$dropdown   : 'default' !default;
+$embed      : 'default' !default;
+$modal      : 'default' !default;
+$nag        : 'default' !default;
+$popup      : 'default' !default;
+$progress   : 'default' !default;
+$rating     : 'default' !default;
+$search     : 'default' !default;
+$shape      : 'default' !default;
+$sidebar    : 'default' !default;
+$sticky     : 'default' !default;
+$tab        : 'default' !default;
+$transition : 'default' !default;
+
+/* Views */
+$ad         : 'default' !default;
+$card       : 'default' !default;
+$comment    : 'default' !default;
+$feed       : 'default' !default;
+$item       : 'default' !default;
+$statistic  : 'default' !default;
+
+/*******************************
+            Folders
+*******************************/
+
+/* Path to theme packages */
+$themesFolder : 'themes';
+
+/* Path to site override folder */
+$siteFolder  : 'site';
+
+
+/*******************************
+         Import Theme
+*******************************/
+
+@import "_theme";
+
+/* End Config */
